@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571549346572.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1689965322",
+    "id" : "20275606",
+    "lastKnownWriteTime" : 1571549901,
+    "last_content_update" : 1571549901608,
+    "path" : "~/GitHub/WebsitePractice/references.Rmd",
+    "project_path" : "references.Rmd",
+    "properties" : {
+        "cursorPosition" : "9,87",
+        "scrollLine" : "7",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

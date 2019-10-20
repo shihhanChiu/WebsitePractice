@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>about.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">資料科學應用創新黑克松競賽</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">競賽說明</a>
+</li>
+<li>
+  <a href="information.html">報名資訊</a>
+</li>
+<li>
+  <a href="findpeers.html">徵尋隊友</a>
+</li>
+<li>
+  <a href="references.html">參考作品</a>
+</li>
+<li>
+  <a href="https://www.facebook.com/鞈<96><a7>飛<e6><87><e5><e6>暺恥<e6>蝡嗉魚-2329576390451183/?__tn__=k*F&amp;tn-str=k*F">臉書粉專</a>
+</li>
+<li>
+  <a href="masters.html">歷屆得獎名單</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p>競賽緣起 黑客松是黑客+馬拉松（HACK + MARATHON）的組合字，大致上就是幾個人聚在一起以馬拉松的方式進行一段長時間(24小時)的程式設計活動。以軟體、手機應用程式、虛擬實境和雲端服務等技術整合，開發具潛在目標市場包含醫療、環境、教育、娛樂和智慧生活等的資訊科技創新活動。國立臺北大學經濟系今年度首度辦理「第一屆國立臺北大學資料科學應用創新黑客松競賽」活動，期待參賽者能以「技術交流、團隊合作」的精神，在競賽中與實務接軌，發揮無窮的想像力，為新科技帶來不一樣的驚奇！</p>
+<p>競賽資訊 時間</p>
+<p>108年3月16日（六）至3月17日（日）。</p>
+<p>地點</p>
+<p>國立臺北大學創業創新中心。</p>
+<p>費用</p>
+<p>免費，保證金500元/隊 (將於活動現場全額退回，無出席者恕不退還保證金)。</p>
+<p>費用繳交方式</p>
+<p>線上報名完成後於「收費期間」至「收費地點」繳交。 收費期間：108/2/18 ~ 108/2/27，週一~週五，9:00 ~ 12:00，13:30 ~ 17:00。 收費地點：社會科學院3F 經濟學系辦公室 將於活動結束後全額退還，無出席者恕不退還保證金 報名統一採線上申報方式</p>
+<p>現場設備</p>
+<p>提供餐飲、電源和無線網路。參賽者請依個人需求攜帶所需設備及相關物品，如筆電、平板及個人睡袋寢具等。</p>
+<p>流程</p>
+<p>3月16日 時間 活動項目 9:00-9:30 參賽者簽到 9:30-10:00 開幕式（公布題目） 10:00-12:00 開始coding 12:00-13:00 午餐時間 13:00-15:30 持續coding 15:30-16:00 下午茶時間 16:00-18:30 持續coding 18:30-19:30 晚餐時間 19:30-22:00 持續coding 22:00-24:00 不斷電持續coding 3月17日 時間 活動項目 00:00-08:00 最後衝刺繼續coding 08:00-09:30 早餐時間 9:30-12:30 各組報告 12:30-13:30 午餐時間 13:30-14:30 評審講評 14:30-15:00 頒獎 15:00-15:10 閉幕式 競賽規則 競賽題目於當天公告。</p>
+<p>黑客松</p>
+<p>以政府開放資料為發揮主體（但不以此為限），創新結果須以使用者介面呈現。 決賽</p>
+<p>各組報告時間為8至15分鐘，工作人員於報告時間至7分鐘時舉牌提醒參賽隊伍。 評分標準</p>
+<p>競賽獎勵 獲獎團隊可獲頒獎狀乙紙，以及各名次之獎金。</p>
+<p>第一名(1隊)：獎金新台幣3萬元。</p>
+<p>第二名(1隊)：獎金新台幣2萬元。</p>
+<p>第三名(1隊)：獎金新台幣1萬元。</p>
+<p>佳作(最多3隊)：獎金新台幣5,000元。</p>
+<p>獎項評定及頒發由評選委員會議決議之，必要時得以從缺辦理。</p>
+<p>注意事項 選手依報名時填寫資料進行競賽，活動當天無法更改團隊資料。 程式需為當天實作，不可使用現有作品更改，若違反規定將取消競賽或得獎資格。 參賽作品之著作權，歸屬參賽團隊或成員個人，但主辦單位與執行單位共同擁有為推廣活動及教育目的的重製、下載及公開展示（如得獎展示、特展）等權利。 凡報名參加本競賽者，視為已閱讀並完全同意遵守本活動之一切規定，若有未盡事宜或不可抗拒因素而有所異動，主辦單位保有變更內容之權力。 主辦單位：國立臺北大學 經濟學系 贊助單位：英生鋼鐵企業股份有限公司 葉茂泰董事長 協辦單位：研究發展處 創新創業中心、 國立臺北大學 資訊工程學系</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

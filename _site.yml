@@ -1,8 +1,20 @@
-name: "my-website"
+name: "資料科學應用創新黑克松競賽"
+output_dir: "."
 navbar:
-  title: "My Website"
+  title: "資料科學應用創新黑克松競賽"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "競賽說明"
       href: about.html
+    - text: "報名資訊"
+      href: information.html
+    - text: "徵尋隊友"
+      href: findpeers.html
+    - text: "參考作品"
+      href: references.html
+    - text: "臉書粉專"
+      href: "https://www.facebook.com/資料科學應用創新黑客松競賽-2329576390451183/?__tn__=k*F&tn-str=k*F"
+    - text: "歷屆得獎名單"
+      href: masters.html
+

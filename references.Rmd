@@ -1,0 +1,15 @@
+參考資料
+<a href="https://data.gov.tw/" target="_blank">政府資料開放平臺</a>
+<a href="https://data.taipei/index" target="_blank">臺北市政府資料開放平臺</a>
+<a href="http://data.ntpc.gov.tw/" target="_blank">新北市政府資料開放平臺</a>
+作品範例
+<a href="https://env.healthinfo.tw/air/" target="_blank">PM2.5全台即時概況</a>
+<a href="https://env.healthinfo.tw/air/" target="_blank">Google 台灣災害應變資訊平臺</a>
+<a href="https://water.taiwanstat.com/" target="_blank">台灣水庫即時水情</a>
+<a href="http://muyueh.com/30/co2/show.html" target="_blank">溫室氣體清冊：台灣</a>
+更多作品範例可從政府資料開放平臺中的<a href="https://data.gov.tw/applications" target="_blank">活化應用專區</a>觀看瞭解。
+
+主辦單位：國立臺北大學 經濟學系
+贊助單位：英生鋼鐵企業股份有限公司 葉茂泰董事長
+協辦單位：研究發展處 創新創業中心、
+國立臺北大學 資訊工程學系
