@@ -14,7 +14,7 @@ title: "首頁"
 </form>
 
 <script>
-  const scriptURL = "https://script.google.com/macros/s/AKfycbx3BBaM3ckZeAsKN88tXsuOngdaHo1OCDCmqTP_CU_q82trWss/exec"
+  const scriptURL = https://script.google.com/macros/s/AKfycbx3BBaM3ckZeAsKN88tXsuOngdaHo1OCDCmqTP_CU_q82trWss/exec
   const form = document.forms['submit-to-google-sheet']
 
   form.addEventListener('submit', e => {

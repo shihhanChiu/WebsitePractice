@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1736824310",
+    "hash" : "2984526623",
     "id" : "ED432D5",
-    "lastKnownWriteTime" : 1571553817,
-    "last_content_update" : 1571553817670,
+    "lastKnownWriteTime" : 1571815393,
+    "last_content_update" : 1571815393777,
     "path" : "~/GitHub/WebsitePractice/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "22,57",
-        "scrollLine" : "15"
+        "cursorPosition" : "16,115",
+        "scrollLine" : "8"
     },
     "read_only" : false,
     "read_only_alternatives" : [
