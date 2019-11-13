@@ -19,6 +19,9 @@ navbar:
     - text: "表單"
       href: form.html
 output_dir: "."
-
+output:
+  html_document:
+    css: css/myStyle.css
+    theme: paper
   
 
