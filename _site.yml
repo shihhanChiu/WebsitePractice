@@ -1,5 +1,4 @@
 name: "資料科學應用創新黑克松競賽"
-output_dir: "."
 navbar:
   title: "資料科學應用創新黑克松競賽"
   left:
@@ -17,4 +16,9 @@ navbar:
       href: "https://www.facebook.com/資料科學應用創新黑客松競賽-2329576390451183/?__tn__=k*F&tn-str=k*F"
     - text: "歷屆得獎名單"
       href: masters.html
+    - text: "表單"
+      href: form.html
+output_dir: "."
+
+  
 

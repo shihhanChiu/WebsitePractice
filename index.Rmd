@@ -1,14 +1,15 @@
 ---
 title: "首頁"
 ---
+<!-- 以下是臉書與Line分享連結碼 -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v5.0"></script>
 <div class="fb-share-button" data-href="https://shihhanchiu.github.io/WebsitePractice/?email=shihhan2018%40gmail.com" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fshihhanchiu.github.io%2FWebsitePractice%2F%3Femail%3Dshihhan2018%2540gmail.com&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div>
 
 <div class="line-it-button" data-lang="en" data-type="share-a" data-ver="3" data-url="https://shihhanchiu.github.io/WebsitePractice/" data-color="default" data-size="large" data-count="false" style="display: none;"></div>
  <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script><br>
- 
-
+ <!-- end -->
+ <!-- 以下是之前的 Google sheets 碼-->
 <form name="submit-to-google-sheet">
   <input name="email" type="email" placeholder="Email" required>
   <button type="submit">Send</button>
@@ -25,7 +26,7 @@ title: "首頁"
       .catch(error => console.error('Error!', error.message))
   })
 </script>
-
+<!-- end -->
 
 冠軍 10617383<br>
 資管碩二 盧致嘉<br>
